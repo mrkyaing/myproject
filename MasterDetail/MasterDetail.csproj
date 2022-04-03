@@ -27,6 +27,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -135,6 +137,7 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\MasterDetailContext.cs" />
+    <Compile Include="Models\ProductModel.cs" />
     <Compile Include="Models\SalesMain.cs" />
     <Compile Include="Models\SalesSub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
